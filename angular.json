@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "00039b7b-d123-46e4-aaf3-bf2abe9ec73a"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -31,6 +34,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/@zoom/videosdk-ui-toolkit/dist/videosdk-ui-toolkit.css",
               "src/styles.scss"
             ],
             "scripts": []
